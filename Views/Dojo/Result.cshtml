@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DojoSurvey Result</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container"  style="width: 400px;">
+    <div class="d-flex flex-column justify-content-between align-items-center">
+      <h1 class="p-2">Submitted Info</h1>
+      <div class="p-2">Name @ViewBag.name</div>
+      <div class="p-2">Location @ViewBag.location</div>
+      <div class="p-2">Language @ViewBag.language</div>
+      <div class="p-2">Comment @ViewBag.comment</div>
+      <div class="p-2 align-self-end"><form action="back" method="get">
+        <button type="submit">Go Back</button>
+      </form></div>
+    </div>
+  </div>
+</body>
+</html>
